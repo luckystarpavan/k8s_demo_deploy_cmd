@@ -1,0 +1,18 @@
+#SAFlaskFinal.py
+##this is the package
+
+#We want to change all other loggings to cloud logging environment 
+
+import google.cloud.logging
+import logging
+client = google.cloud,logging.client()
+client.setup_logging()
+
+
+
+
+#comment the logging.basicConfig(filename="Flask.log", level=logging.DEBUG, 
+       formate= '%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+
+
